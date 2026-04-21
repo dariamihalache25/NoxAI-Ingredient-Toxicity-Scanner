@@ -84,8 +84,11 @@ st.markdown(custom_style, unsafe_allow_html=True)
 # INITIALIZATION & DATA LOADING
 # ==========================================
 
-# Configure Tesseract path (Required for local Windows machines)
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+# Configure Tesseract path
+if os.name == 'nt': # Windows
+    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+else: # Linux
+    pytesseract.pytesseract.tesseract_cmd = 'tesseract'
 
 # Load the trained machine learning model once at startup
 model = joblib.load("toxicity_model.pkl")
