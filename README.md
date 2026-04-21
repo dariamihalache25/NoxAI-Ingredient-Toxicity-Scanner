@@ -8,13 +8,13 @@ NoxAI is an end-to-end machine learning solution that evaluates the safety of co
 * **AI Predictions:** Uses a Random Forest model and RDKit (Morgan Fingerprints) to predict toxicity.
 * **Cloud Logging:** Automatically logs new ingredients to Google Sheets via GCP.
 
-## 🛠 Tech Stack
+##  Tech Stack
 * **Language:** Python (Pandas, NumPy, Scikit-Learn)
 * **Science:** RDKit (Cheminformatics)
 * **Vision:** Tesseract OCR
 * **UI:** Streamlit & Custom CSS
 
-## ⚙ Installation
+##  Installation
 1. `git clone https://github.com/dariamihalache25/NoxAI-Ingredient-Toxicity-Scanner.git`
 2. `pip install -r requirements.txt`
 3. `streamlit run app.py`
