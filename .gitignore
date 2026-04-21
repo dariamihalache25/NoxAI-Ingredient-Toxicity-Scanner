@@ -1,0 +1,3 @@
+.venv/
+admin_log.csv
+__pycache__/
