@@ -1,5 +1,8 @@
 # NoxAI: Ingredient Toxicity Scanner 🔬
 
+📍Link to try the Live App: 
+https://noxai-ingredient-toxicity-scanner-hcrqhvmntcytar25bo8u35.streamlit.app/
+
 NoxAI is an end-to-end machine learning solution that evaluates the safety of cosmetic products. By analyzing ingredient labels through Computer Vision and Predictive Modeling, the app identifies potentially harmful substances in real-time.
 
 ## Status:  Active Prototype / Educational Project
